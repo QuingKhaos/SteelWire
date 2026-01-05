@@ -1,0 +1,12 @@
+{
+    "$schema": "https://raw.githubusercontent.com/budak7273/ContentLib_Documentation/main/JsonSchemas/CL_Schematic.json",
+    "Name": "Alternate: Steel Wire",
+    "Type": "Alternate",
+    "VisualKit": "Desc_Wire_C",
+    "DependsOn": [
+        "Schematic_3-4"
+    ],
+    "Recipes": [
+        "Recipe_SteelWire"
+    ]
+}
