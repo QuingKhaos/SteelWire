@@ -1,4 +1,19 @@
-# Visual Studio user specific files
+# Intermediate assets
+/Assets/**/*.exr
+/Assets/**/*.fbx
+/Assets/**/*.glb
+/Assets/**/*.png
+
+# Blender files
+*.blend1
+
+# Substance files
+.autosave/
+*_autosave_*.spp
+*.spp.painter_lock
+*.assbin
+
+# Visual Studio 2015 user specific files
 .vs/
 
 # Compiled Object files
@@ -40,6 +55,7 @@
 *.sdf
 *.VC.db
 *.VC.opendb
+.vsconfig
 
 # Precompiled Assets
 SourceArt/**/*.png
@@ -47,7 +63,7 @@ SourceArt/**/*.tga
 
 # Binary Files
 Binaries/*
-Plugins/*/Binaries/*
+Plugins/**/Binaries/*
 
 # Builds
 Build/*
@@ -68,7 +84,7 @@ Saved/*
 
 # Compiled source files for the engine to use
 Intermediate/*
-Plugins/*/Intermediate/*
+Plugins/**/Intermediate/*
 
 # Cache files for the editor to use
 DerivedDataCache/*

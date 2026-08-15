@@ -1,17 +1,16 @@
 {
 	"FileVersion": 3,
 	"Version": 1,
-	"VersionName": "1.0.0",
-	"SemVersion": "1.0.0",
-	"GameVersion": ">=416835",
+	"VersionName": "1.1.0",
+	"SemVersion": "1.1.0",
 	"FriendlyName": "Steel Wire",
 	"Description": "Simple alternate recipe to create wire from steel.",
 	"Category": "Modding",
 	"CreatedBy": "QuingKhaos",
-	"CreatedByURL": "",
+	"CreatedByURL": "https://github.com/QuingKhaos",
 	"DocsURL": "",
-	"MarketplaceURL": "",
-	"SupportURL": "",
+	"MarketplaceURL": "https://ficsit.app/mod/SteelWire",
+	"SupportURL": "https://discord.gg/B3qJBE3M9W",
 	"CanContainContent": true,
 	"IsBetaVersion": false,
 	"IsExperimentalVersion": false,
@@ -20,12 +19,13 @@
 		{
 			"Name": "SML",
 			"Enabled": true,
-			"SemVersion": "^3.11.3"
+			"SemVersion": "^3.12.0"
 		},
 		{
 			"Name": "ContentLib",
 			"Enabled": true,
-			"SemVersion": "^1.8.0"
+			"SemVersion": "^1.10.0"
 		}
-	]
+	],
+	"GameVersion": ">=502094"
 }
