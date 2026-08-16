@@ -1,5 +1,5 @@
 {
-	"FormatVersion": 1,
+	"FormatVersion": 2,
 	"Namespace": "",
 	"Subnamespaces": [
 		{
@@ -10,12 +10,11 @@
 					{
 						"Text": "Alternate: Steel Wire"
 					},
-					"Keys": [
-						{
-							"Key": "SteelWire/Recipe",
-							"Path": "/SteelWire/ST_SteelWire.ST_SteelWire"
-						}
-					]
+					"Translation":
+					{
+						"Text": "Alternative: Stahldraht"
+					},
+					"Key": "SteelWire/Recipe"
 				}
 			]
 		}
